@@ -1,0 +1,15 @@
+# activity 3 Loop Condition Logic 
+# Task 1: Loop Condition Exploration
+print("Task 1:")
+count = 0
+while count < 1:  
+    print("Inside the loop")
+    count += 1
+    if count >= 5:
+        break  
+# Task 2: Exit
+print("\nTask 2:")
+count = 0
+while count < 5:  
+    print("Inside the loop")
+    count += 1

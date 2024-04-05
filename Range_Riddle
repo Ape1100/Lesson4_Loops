@@ -1,0 +1,12 @@
+#  Activity 1: moods
+
+import random
+
+# List of moods
+moods = ["Happy", "Sad", "Energetic", "Calm"]
+
+for day in range(7):
+    # Mood from the list
+    mood = random.choice(moods)
+    # Mood for the current day
+    print(f"On day {day+1}, you were feeling {mood}.")

@@ -1,0 +1,18 @@
+# Activity 6 advanced looping 
+
+# Task 1: Selective DJ
+print("Task 1:")
+genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
+selected_genres = genres[1:4]  
+for genre in selected_genres:
+    print(genre)
+
+# Task 2: The One-Liner Band 
+print("\nTask 2:")
+new_genres = [genre + " Music" for genre in genres]  
+print(new_genres)
+
+# Task 3: Numerical Beats 
+for number in range(10, 0, -1):  
+    print(number)
+print("The beat drops now!")

@@ -1,0 +1,9 @@
+#Activity 2 : Double nested loops that randomly select feelings for days of the week
+import random
+
+moods = ["Happy", "Sad", "Energetic", "Calm", "Tired", "Excited"]
+days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+for day in days_of_week:
+    for time in ["morning", "afternoon", "evening"]:
+        mood = random.choice(moods)
+        print(f"On {day} {time} you were {mood}.")
